@@ -1,1 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/c++  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/opgl_t.dir/Source/Application.cpp.o CMakeFiles/opgl_t.dir/Source/System/Context.cpp.o CMakeFiles/opgl_t.dir/Source/main.cpp.o  -o opgl_t  /usr/local/lib/libglfw.3.3.dylib libglad.a 
