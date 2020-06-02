@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/volodymyrvakhniuk/Desktop/OpenGL-Template/Source/glad/glad.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+glad.h
+/Users/volodymyrvakhniuk/Desktop/OpenGL-Template/Source/glad/glad.h
+windows.h
+-
+winapifamily.h
+-
+dlfcn.h
+-
+
+/Users/volodymyrvakhniuk/Desktop/OpenGL-Template/Source/glad/glad.h
+windows.h
+-
+stddef.h
+-
+inttypes.h
+-
+inttypes.h
+-
+inttypes.h
+-
+stdint.h
+-
+stdint.h
+-
+inttypes.h
+-
+

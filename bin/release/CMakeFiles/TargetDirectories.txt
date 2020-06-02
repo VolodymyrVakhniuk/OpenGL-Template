@@ -1,0 +1,4 @@
+/Users/volodymyrvakhniuk/Desktop/OpenGL-Template/bin/release/CMakeFiles/rebuild_cache.dir
+/Users/volodymyrvakhniuk/Desktop/OpenGL-Template/bin/release/CMakeFiles/edit_cache.dir
+/Users/volodymyrvakhniuk/Desktop/OpenGL-Template/bin/release/CMakeFiles/glad.dir
+/Users/volodymyrvakhniuk/Desktop/OpenGL-Template/bin/release/CMakeFiles/opgl_t.dir
