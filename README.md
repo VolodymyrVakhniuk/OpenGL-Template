@@ -21,7 +21,8 @@ sh Scripts/run.sh
 How to use:
 
 The project supports glad, glfw3 and glm libraries.
-All the rendering code can be put to apploop function in Application.cpp.
+
+All the rendering code can be put to apploop method in Application.cpp.
 
 
 
