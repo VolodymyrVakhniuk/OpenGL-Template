@@ -1,6 +1,8 @@
 # OpenGL Template
 Cross platfrom code for any OpenGL application
 
+![preview](https://i.imgur.com/uEOUQkx.png)
+
 ## Install and run
 It is assumed that the user has glfw3 library installed and CMake version 3.17.3.
 
