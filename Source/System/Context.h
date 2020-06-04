@@ -1,10 +1,8 @@
 #ifndef Context_h
 #define Context_h
 
-#include "../glad/glad.h"
-#include <GLFW/glfw3.h>
-
-#include "Config.h"
+class Config;
+class GLFWwindow;
 
 class Context
 {

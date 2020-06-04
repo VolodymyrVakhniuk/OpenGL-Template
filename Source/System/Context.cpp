@@ -1,8 +1,19 @@
 #include "Context.h"
+
+#include "../glad/glad.h"
+#include "GLFW/glfw3.h"
+
 #include "Config.h"
 
-#include <iostream>
 #include <string>
+
+namespace 
+{
+    void framebuffer_size_callback(GLFWwindow* window, int width, int height)
+    {
+        glViewport(0, 0, width, height);
+    }
+}
 
 Context::Context(const Config &config)
 {
@@ -25,15 +36,14 @@ Context::Context(const Config &config)
     }
     
     glfwMakeContextCurrent(m_window);
-    glfwSetInputMode(m_window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
+    glfwSetFramebufferSizeCallback(m_window, framebuffer_size_callback);
+    //glfwSetInputMode(m_window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
 
     if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress))
+    {
+        glfwTerminate();
         throw std::runtime_error("Failed to initialize GLAD\n");
-
-    
-    glViewport(0, 0, config.window_width, config.window_height);
-    
-    glEnable(GL_DEPTH_TEST);
+    }
 }
 
 

@@ -2,7 +2,8 @@
 #define Application_h
 
 #include "System/Context.h"
-//#include "System/Config.h"
+
+class Config;
 
 class Application
 {

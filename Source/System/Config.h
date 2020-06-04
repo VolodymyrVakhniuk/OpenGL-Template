@@ -5,8 +5,8 @@
 
 struct Config
 {   
-    int window_width = 1000;
-    int window_height = 800;
+    int window_width = 2880;
+    int window_height = 1800;
 
     int opengl_version_major = 4;
     int opengl_version_minor = 1;
