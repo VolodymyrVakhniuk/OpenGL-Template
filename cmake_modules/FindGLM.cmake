@@ -12,6 +12,7 @@
 # References:
 # - https://github.com/Groovounet/glm/blob/master/util/FindGLM.cmake
 # - https://bitbucket.org/alfonse/gltut/src/28636298c1c0/glm-0.9.0.7/FindGLM.cmake
+# - https://github.com/Hopson97/MineCraft-One-Week-Challenge/blob/master/cmake_modules/FindGLM.cmake
 #
 
 # Additional modules
