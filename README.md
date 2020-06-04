@@ -3,7 +3,7 @@ Cross platfrom code for any OpenGL application
 
 ![preview](https://i.imgur.com/uEOUQkx.png)
 
-## Install and run
+## Install, Build and Run
 It is assumed that the user has glfw3 library installed and CMake version 3.17.3.
 
 To setup:
