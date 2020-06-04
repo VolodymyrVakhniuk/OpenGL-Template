@@ -24,6 +24,8 @@ The project supports glad, glfw3 and glm libraries.
 
 All the rendering code can be put to apploop method in Application.cpp.
 
+Shader files can be put to Res/Shaders folder.
+
 
 
 
