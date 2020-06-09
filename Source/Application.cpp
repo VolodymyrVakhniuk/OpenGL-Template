@@ -20,7 +20,7 @@ void Application::apploop()
     auto window = m_context.get_window();
 
     // background color
-    GLfloat background_color[] = {0.0, 0.0, 0.0, 1.0};
+    GLfloat background_color[] = {0.2, 0.5, 0.3, 1.0};
 
     // Creating shader program
     char error_buffer[1024];

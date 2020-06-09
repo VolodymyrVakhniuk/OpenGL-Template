@@ -32,7 +32,7 @@ set(GLAD_DIR "Source/glad")
 add_library(glad "${GLAD_DIR}/glad.c")
 
 # Define the include directories
-target_include_directories(glad PRIVATE "${GLAD_DIR}")
+target_include_directories(glad PRIVATE "Source/glad")
 target_include_directories(${PROJECT_NAME} PUBLIC ${GLM_INCLUDE_DIRS} PRIVATE "${GLAD_DIR}")
 
 message(STATUS "GLAD DIR = ${GLAD_DIR}")
